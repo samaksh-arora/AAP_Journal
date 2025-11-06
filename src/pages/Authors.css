@@ -1,0 +1,13 @@
+.authors-page section {
+  padding: 4rem 0;
+}
+
+.download-link-inline {
+  color: var(--color-accent);
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+.download-link-inline:hover {
+  color: var(--color-primary);
+}

@@ -1,0 +1,32 @@
+.announcements-page section {
+  padding: 4rem 0;
+}
+
+.announcement-item {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: 8px;
+  padding: 2rem;
+  margin-bottom: 2rem;
+}
+
+.announcement-date {
+  font-size: 0.875rem;
+  color: var(--color-text-secondary);
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.announcement-item h3 {
+  color: var(--color-primary);
+  margin-bottom: 1rem;
+}
+
+.announcement-item ul {
+  margin: 1rem 0;
+  padding-left: 2rem;
+}
+
+.announcement-item li {
+  margin-bottom: 0.5rem;
+}
