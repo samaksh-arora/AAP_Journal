@@ -21,7 +21,7 @@ function Navbar() {
       <div className="container">
         <nav>
           <Link to="/" className="nav-brand">
-            <img src="/aap_logo.png" alt="Audi Alteram Partem Logo" className="nav-logo" />
+            <img src="/logo.png" alt="Audi Alteram Partem Logo" className="nav-logo" />
             <span>Audi Alteram Partem</span>
           </Link>
           <button 
@@ -43,20 +43,11 @@ function Navbar() {
             </li>
             <li>
               <Link 
-                to="/about" 
-                className={isActive('/about') ? 'active' : ''}
+                to="/publications" 
+                className={isActive('/publications') ? 'active' : ''}
                 onClick={closeMobileMenu}
               >
-                About
-              </Link>
-            </li>
-            <li>
-              <Link 
-                to="/issues" 
-                className={isActive('/issues') ? 'active' : ''}
-                onClick={closeMobileMenu}
-              >
-                Issues & Articles
+                Publications
               </Link>
             </li>
             <li>
@@ -75,15 +66,6 @@ function Navbar() {
                 onClick={closeMobileMenu}
               >
                 Editorial Board
-              </Link>
-            </li>
-            <li>
-              <Link 
-                to="/announcements" 
-                className={isActive('/announcements') ? 'active' : ''}
-                onClick={closeMobileMenu}
-              >
-                Announcements
               </Link>
             </li>
             <li>

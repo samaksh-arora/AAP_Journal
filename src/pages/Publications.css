@@ -1,0 +1,55 @@
+.publications-page section {
+  padding: 4rem 0;
+}
+
+.issue-section {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.issue-header {
+  background: var(--color-surface);
+  padding: 2rem;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+  border: 2px solid var(--color-accent);
+  text-align: center;
+}
+
+.issue-header h2 {
+  color: var(--color-primary);
+  margin-bottom: 0.5rem;
+  font-size: 2rem;
+}
+
+.issue-header p {
+  color: var(--color-text-secondary);
+  font-size: 1.1rem;
+}
+
+.inaugural-message {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: 8px;
+  padding: 2.5rem;
+  line-height: 1.8;
+}
+
+.inaugural-message p {
+  margin-bottom: 1.5rem;
+  font-size: 1.1rem;
+}
+
+.inaugural-message p:last-child {
+  margin-bottom: 0;
+}
+
+.inaugural-message a {
+  color: var(--color-accent);
+  font-weight: 600;
+}
+
+.inaugural-message a:hover {
+  color: var(--color-primary);
+}
+

@@ -12,42 +12,6 @@ function Contact() {
 
       <section>
         <div className="container">
-          <div className="contact-cards">
-            <div className="card">
-              <h3>📧 Email</h3>
-              <p><strong>General Inquiries:</strong><br />
-              <a href="mailto:journal@wayne.edu">journal@wayne.edu</a></p>
-              <p><strong>Manuscript Submissions:</strong><br />
-              <a href="mailto:submissions@audialteram.org">submissions@audialteram.org</a></p>
-              <p><strong>Editorial Office:</strong><br />
-              <a href="mailto:editor@audialteram.org">editor@audialteram.org</a></p>
-            </div>
-
-            <div className="card">
-              <h3>📍 Mailing Address</h3>
-              <p>
-                <strong>Audi Alteram Partem</strong><br />
-                Wayne State University<br />
-                College of Liberal Arts and Sciences<br />
-                5057 Woodward Avenue<br />
-                Detroit, MI 48202<br />
-                United States
-              </p>
-            </div>
-
-            <div className="card">
-              <h3>🕐 Response Time</h3>
-              <p>
-                We aim to respond to all inquiries within 2-3 business days. For manuscript 
-                status inquiries, please allow 10-12 weeks from initial submission before 
-                contacting the editorial office.
-              </p>
-              <p>
-                For urgent matters, please indicate "URGENT" in your email subject line.
-              </p>
-            </div>
-          </div>
-
           <div className="contact-info-box">
             <h2>Connect With Us</h2>
             <div className="contact-info-content">
@@ -55,7 +19,7 @@ function Contact() {
                 <div className="contact-icon">📧</div>
                 <div className="contact-details">
                   <h3>Email</h3>
-                  <a href="mailto:journal@wayne.edu">journal@wayne.edu</a>
+                  <a href="mailto:aap.journal.edu@gmail.com">aap.journal.edu@gmail.com</a>
                 </div>
               </div>
 
@@ -67,8 +31,8 @@ function Contact() {
                 </div>
                 <div className="contact-details">
                   <h3>LinkedIn</h3>
-                  <a href="https://linkedin.com/company/audi-alteram-partem" target="_blank" rel="noopener noreferrer">
-                    linkedin.com/company/audi-alteram-partem
+                  <a href="https://www.linkedin.com/company/audi-alteram-partem-journal-of-law-science-and-society" target="_blank" rel="noopener noreferrer">
+                    Audi Alteram Partem
                   </a>
                 </div>
               </div>
@@ -81,31 +45,12 @@ function Contact() {
                 </div>
                 <div className="contact-details">
                   <h3>Instagram</h3>
-                  <a href="https://instagram.com/audialteram" target="_blank" rel="noopener noreferrer">
-                    @audialteram
+                  <a href="https://www.instagram.com/aap.journal?igsh=MzN6dmJ6bmR0YnNu" target="_blank" rel="noopener noreferrer">
+                    @aap.journal
                   </a>
                 </div>
               </div>
             </div>
-          </div>
-
-          <div className="info-box" style={{ marginTop: '3rem' }}>
-            <h3>Other Ways to Connect</h3>
-            <p>
-              <strong>For Manuscript Inquiries:</strong> If you have questions about whether 
-              your research is suitable for the journal, please email a 200-word abstract 
-              to the editorial office before submitting a full manuscript.
-            </p>
-            <p>
-              <strong>For Media Inquiries:</strong> Journalists seeking expert commentary or 
-              information about published research should contact our communications coordinator 
-              at <a href="mailto:media@audialteram.org">media@audialteram.org</a>
-            </p>
-            <p>
-              <strong>For Institutional Partnerships:</strong> Libraries and institutions 
-              interested in partnership opportunities should contact{' '}
-              <a href="mailto:partnerships@audialteram.org">partnerships@audialteram.org</a>
-            </p>
           </div>
         </div>
       </section>
