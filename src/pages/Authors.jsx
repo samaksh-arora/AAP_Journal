@@ -56,7 +56,7 @@ function Authors() {
           </ul>
 
           <div className="info-box">
-            <h3>❓ Questions?</h3>
+            <h3>Questions?</h3>
             <p>
               If you have questions about the submission process or whether your manuscript 
               is appropriate for <em>Audi Alteram Partem</em>, please contact us at{' '}
