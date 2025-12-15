@@ -52,6 +52,15 @@ function Navbar() {
             </li>
             <li>
               <Link 
+                to="/podcast" 
+                className={isActive('/podcast') ? 'active' : ''}
+                onClick={closeMobileMenu}
+              >
+                Podcast
+              </Link>
+            </li>
+            <li>
+              <Link 
                 to="/authors" 
                 className={isActive('/authors') ? 'active' : ''}
                 onClick={closeMobileMenu}
