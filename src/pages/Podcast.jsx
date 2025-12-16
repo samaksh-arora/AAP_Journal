@@ -37,7 +37,7 @@ function Podcast() {
               {/* Audio Player for M4A file */}
               <div className="audio-player-wrapper">
                 <audio controls className="audio-player">
-                  <source src="/podcast-episode-1.m4a" type="audio/mp4" />
+                  <source src="/podcast-1.m4a" type="audio/mp4" />
                   Your browser does not support the audio element.
                 </audio>
               </div>
