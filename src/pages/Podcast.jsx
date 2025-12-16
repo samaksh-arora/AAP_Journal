@@ -45,7 +45,7 @@ function Podcast() {
               {/* Download Button */}
               <div className="episode-actions">
                 <a 
-                  href="/podcast-episode-1.m4a" 
+                  href="/podcast-1.m4a" 
                   download="AAP-Podcast-Episode-1.m4a"
                   className="download-btn"
                 >
