@@ -14,9 +14,6 @@ function Board() {
         <div className="container">
           {/* Editor-in-Chief */}
           <div className="board-member">
-            <div className="board-member-photo-wrapper">
-              <img src="https://via.placeholder.com/150/07321b/d8b05f?text=KR" alt="Kavya Ramkumar" className="board-member-img" />
-            </div>
             <div className="board-member-info">
               <h3>Kavya Ramkumar</h3>
               <p className="board-member-role">Editor-in-Chief</p>
@@ -36,9 +33,6 @@ function Board() {
 
           {/* Managing Editor */}
           <div className="board-member">
-            <div className="board-member-photo-wrapper">
-              <img src="https://via.placeholder.com/150/07321b/d8b05f?text=ME" alt="Mohamad El Sabeh" className="board-member-img" />
-            </div>
             <div className="board-member-info">
               <h3>Mohamad El Sabeh</h3>
               <p className="board-member-role">Managing Editor</p>
@@ -59,9 +53,6 @@ function Board() {
 
           {/* Executive Research Editor */}
           <div className="board-member">
-            <div className="board-member-photo-wrapper">
-              <img src="https://via.placeholder.com/150/07321b/d8b05f?text=AH" alt="Amelia Hawkins" className="board-member-img" />
-            </div>
             <div className="board-member-info">
               <h3>Amelia Hawkins</h3>
               <p className="board-member-role">Executive Research Editor</p>
@@ -83,9 +74,6 @@ function Board() {
 
           {/* Executive Copy Editor - Jaylen Seaton */}
           <div className="board-member">
-            <div className="board-member-photo-wrapper">
-              <img src="https://via.placeholder.com/150/07321b/d8b05f?text=JS" alt="Jaylen Seaton" className="board-member-img" />
-            </div>
             <div className="board-member-info">
               <h3>Jaylen Seaton</h3>
               <p className="board-member-role">Executive Copy Editor</p>
@@ -105,9 +93,6 @@ function Board() {
 
           {/* Director of Digital Publications */}
           <div className="board-member">
-            <div className="board-member-photo-wrapper">
-              <img src="https://via.placeholder.com/150/07321b/d8b05f?text=SA" alt="Samaksh Arora" className="board-member-img" />
-            </div>
             <div className="board-member-info">
               <h3>Samaksh Arora</h3>
               <p className="board-member-role">Director of Digital Publications</p>
@@ -128,9 +113,6 @@ function Board() {
 
           {/* Director of Digital Communications */}
           <div className="board-member">
-            <div className="board-member-photo-wrapper">
-              <img src="https://via.placeholder.com/150/07321b/d8b05f?text=WY" alt="Wahaj Yatooma" className="board-member-img" />
-            </div>
             <div className="board-member-info">
               <h3>Wahaj Yatooma</h3>
               <p className="board-member-role">Director of Digital Communications</p>
@@ -141,8 +123,8 @@ function Board() {
                 <strong>Career Goals:</strong> Restaurant Owner & Marketing Career
               </p>
               <p>
-                Wahaj is the Director of Digital Communications for Audi Alteram Partem. He is a 
-                senior undergraduate student majoring in Finance and Marketing. He is interested in 
+                Wahaj is the Director of Digital Communications for Audi Alteram Partem. She is a 
+                senior undergraduate student majoring in Finance and Marketing. She is interested in 
                 building a restaurant and pursuing a career in marketing.
               </p>
             </div>
