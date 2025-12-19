@@ -43,7 +43,7 @@ function Publications() {
                   <p>Access the full Volume I, Issue I publication</p>
                 </div>
                 <a 
-                  href="/volume-1-issue-1.pdf" 
+                  href="/volume1-issue1.pdf" 
                   download="AAP-Volume-1-Issue-1.pdf"
                   className="download-button"
                 >
