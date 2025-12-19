@@ -25,13 +25,35 @@ function Podcast() {
             {/* Episode 1 */}
             <div className="podcast-episode">
               <div className="episode-header">
-                <h3>Episode 1: Introduction to Audi Alteram Partem</h3>
+                <h3>Episode 1: AI and Data Ethics</h3>
                 <p className="episode-date">December 15, 2025</p>
               </div>
+
+              {/* Guest Information */}
+              <div className="guest-info">
+                <h4>Guest: Griffen Kiegel</h4>
+                <p className="guest-credentials">
+                  Bachelor of Arts in Philosophy & Psychology at University of Michigan - Dearborn<br />
+                  Current PhD candidate in Philosophy at Wayne State University
+                </p>
+                <p className="guest-bio">
+                  Griffen Kiegel designed and currently teaches Wayne State's first course on AI and 
+                  Data Ethics. His dissertation is on the environmental consequences of seemingly 
+                  conscious AI. It also asks what the sufficient conditions are for a justified 
+                  attribution of consciousness, and whether consciousness is sufficient for moral status.
+                </p>
+                <p className="guest-bio">
+                  He was interested in contributing to <em>Audi Alteram Partem: Journal of Law, Science, 
+                  and Society</em> because AI is rapidly being implemented in all aspects of society and 
+                  he believes that it is important for everyone to be adequately informed on the ethical 
+                  consequences of this technology so that they can use it responsibly.
+                </p>
+              </div>
+
               <p className="episode-description">
-                In our inaugural episode, we introduce the journal and discuss why interdisciplinary 
-                research matters in today's world. Join our editors as they share their vision for 
-                bridging law, science, and society.
+                In our inaugural episode, we dive deep into the ethical implications of artificial 
+                intelligence and data usage with Griffen Kiegel. Join us as we explore the intersection 
+                of technology, philosophy, and ethics in today's rapidly evolving digital landscape.
               </p>
               
               {/* Audio Player for M4A file */}
@@ -46,7 +68,7 @@ function Podcast() {
               <div className="episode-actions">
                 <a 
                   href="/podcast-1.m4a" 
-                  download="AAP-Podcast-Episode-1.m4a"
+                  download="AAP-Podcast-Episode-1-AI-Data-Ethics.m4a"
                   className="download-btn"
                 >
                   <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">

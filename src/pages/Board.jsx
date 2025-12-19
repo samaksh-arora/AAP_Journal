@@ -22,7 +22,7 @@ function Board() {
               <p className="board-member-role">Editor-in-Chief</p>
               <p className="board-member-affiliation">Wayne State University</p>
               <p className="board-member-details">
-                <strong>Year:</strong> 2nd Year Undergraduate<br />
+                <strong>Undergraduate Year:</strong> 2nd<br />
                 <strong>Major:</strong> Law & Business Management<br />
                 <strong>Career Goals:</strong> Intellectual Property Lawyer
               </p>
@@ -44,7 +44,7 @@ function Board() {
               <p className="board-member-role">Managing Editor</p>
               <p className="board-member-affiliation">Wayne State University</p>
               <p className="board-member-details">
-                <strong>Year:</strong> 2nd Year Undergraduate<br />
+                <strong>Undergraduate Year:</strong> 2nd<br />
                 <strong>Major:</strong> Pre-Nursing<br />
                 <strong>Career Goals:</strong> Dermatology Nurse Practitioner
               </p>
@@ -67,7 +67,7 @@ function Board() {
               <p className="board-member-role">Executive Research Editor</p>
               <p className="board-member-affiliation">Wayne State University</p>
               <p className="board-member-details">
-                <strong>Year:</strong> 2nd Year Undergraduate<br />
+                <strong>Undergraduate Year:</strong> 2nd<br />
                 <strong>Major:</strong> Honors Psychology, University Honors<br />
                 <strong>Minor:</strong> Neuroscience<br />
                 <strong>Career Goals:</strong> Psychiatry
@@ -81,17 +81,24 @@ function Board() {
             </div>
           </div>
 
-          {/* Jaylen Seaton - Placeholder since info is incomplete */}
+          {/* Executive Copy Editor - Jaylen Seaton */}
           <div className="board-member">
             <div className="board-member-photo-wrapper">
               <img src="https://via.placeholder.com/150/07321b/d8b05f?text=JS" alt="Jaylen Seaton" className="board-member-img" />
             </div>
             <div className="board-member-info">
               <h3>Jaylen Seaton</h3>
-              <p className="board-member-role">Editorial Board Member</p>
+              <p className="board-member-role">Executive Copy Editor</p>
               <p className="board-member-affiliation">Wayne State University</p>
+              <p className="board-member-details">
+                <strong>Undergraduate Year:</strong> 2nd<br />
+                <strong>Major:</strong> Accounting and Finance<br />
+                <strong>Career Goals:</strong> CPA
+              </p>
               <p>
-                [Biography and details to be added]
+                Jaylen is the Executive Copy Editor for Audi Alteram Partem. He is a 2nd-year 
+                undergraduate student majoring in Accounting and Finance. He is interested in 
+                being a Certified Public Accountant.
               </p>
             </div>
           </div>
@@ -106,7 +113,7 @@ function Board() {
               <p className="board-member-role">Director of Digital Publications</p>
               <p className="board-member-affiliation">Wayne State University</p>
               <p className="board-member-details">
-                <strong>Year:</strong> 2nd Year Undergraduate<br />
+                <strong>Undergraduate Year:</strong> 2nd<br />
                 <strong>Major:</strong> Computer Science<br />
                 <strong>Minor:</strong> Mathematics<br />
                 <strong>Career Goals:</strong> ML Engineer
@@ -129,13 +136,13 @@ function Board() {
               <p className="board-member-role">Director of Digital Communications</p>
               <p className="board-member-affiliation">Wayne State University</p>
               <p className="board-member-details">
-                <strong>Year:</strong> Senior<br />
+                <strong>Undergraduate Year:</strong> Senior<br />
                 <strong>Major:</strong> Finance and Marketing<br />
                 <strong>Career Goals:</strong> Restaurant Owner & Marketing Career
               </p>
               <p>
-                Wahaj is the Director of Digital Communications for Audi Alteram Partem. She is a 
-                senior undergraduate student majoring in Finance and Marketing. She is interested in 
+                Wahaj is the Director of Digital Communications for Audi Alteram Partem. He is a 
+                senior undergraduate student majoring in Finance and Marketing. He is interested in 
                 building a restaurant and pursuing a career in marketing.
               </p>
             </div>

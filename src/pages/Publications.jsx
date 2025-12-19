@@ -15,7 +15,7 @@ function Publications() {
           <div className="issue-section">
             <div className="issue-header">
               <h2>Volume I, Issue I</h2>
-              <p>Published: December 15th, 2025 (tentative date)</p>
+              <p>Published: December 15th, 2025</p>
             </div>
 
             <div className="inaugural-message">
@@ -32,6 +32,29 @@ function Publications() {
                 feedback with us at <a href="mailto:aap.journal.edu@gmail.com">aap.journal.edu@gmail.com</a>. 
                 Thank you for joining us at the beginning of this new chapter!
               </p>
+            </div>
+
+            {/* Download Section */}
+            <div className="download-section">
+              <div className="download-icon">📚</div>
+              <div className="download-content">
+                <div className="download-text">
+                  <h3>Download Complete Issue</h3>
+                  <p>Access the full Volume I, Issue I publication</p>
+                </div>
+                <a 
+                  href="/volume-1-issue-1.pdf" 
+                  download="AAP-Volume-1-Issue-1.pdf"
+                  className="download-button"
+                >
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                    <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                    <polyline points="7 10 12 15 17 10"></polyline>
+                    <line x1="12" y1="15" x2="12" y2="3"></line>
+                  </svg>
+                  Download PDF
+                </a>
+              </div>
             </div>
           </div>
         </div>
