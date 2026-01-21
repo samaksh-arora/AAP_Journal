@@ -14,7 +14,7 @@ function App() {
   return (
     <Router>
       <div className="app">
-        <AnnouncementBanner />
+        {/* <AnnouncementBanner /> */}
         <Navbar />
         <main>
           <Routes>
