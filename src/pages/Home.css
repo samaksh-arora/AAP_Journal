@@ -1,7 +1,7 @@
 .hero {
   background: 
      linear-gradient(135deg, rgba(15, 66, 38, 0.88) 0%, rgba(9, 46, 26, 0.92) 100%),
-    url('Courthouse_5.jpeg');
+    url('/Courthouse_5.jpeg');
   background-size: cover;
   background-position: center;
   background-blend-mode: multiply;
