@@ -57,6 +57,48 @@ function Publications() {
               </div>
             </div>
           </div>
+          <div className="issue-section">
+            <div className="issue-header">
+              <h2>Volume I, Issue II</h2>
+              <p>Published: June 30th, 2026</p>
+            </div>
+
+            <div className="inaugural-message">
+              <p>
+                We are proud to present Volume 1, Issue 2 of Audi Alteram Partem: Journal of Law, Science, and Society. 
+                As we conclude our inaugural year, this issue continues our commitment to showcasing interdisciplinary scholarship at the intersection of law, science, and society.
+                Our contributors explore a diverse range of topics, from criminology and international relations to cybersecurity, demonstrating the breadth and relevance of student research.
+              </p>
+              <p>
+                We invite you to engage with this volume and to share any thoughts or 
+                feedback with us at <a href="mailto:aap.journal.edu@gmail.com">aap.journal.edu@gmail.com</a>. 
+                Thank you for reading!
+              </p>
+            </div>
+
+            {/* Download Section */}
+            <div className="download-section">
+              <div className="download-icon">📚</div>
+              <div className="download-content">
+                <div className="download-text">
+                  <h3>Download Complete Issue</h3>
+                  <p>Access the full Volume I, Issue II publication</p>
+                </div>
+                <a 
+                  href="/volume1-issue2.pdf" 
+                  download="AAP-Volume-1-Issue-2.pdf"
+                  className="download-button"
+                >
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                    <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                    <polyline points="7 10 12 15 17 10"></polyline>
+                    <line x1="12" y1="15" x2="12" y2="3"></line>
+                  </svg>
+                  Download PDF
+                </a>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
     </div>

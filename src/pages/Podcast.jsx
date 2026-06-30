@@ -80,6 +80,52 @@ function Podcast() {
                 </a>
               </div>
             </div>
+            
+            {/* Episode 2 */}
+<div className="podcast-episode">
+  <div className="episode-header">
+    <h3>Episode 2: Understanding Gun Psychology and Firearm Policy</h3>
+    <p className="episode-date">June 30th, 2026</p>
+  </div>
+
+  {/* Guest Information */}
+  <div className="guest-info">
+    <h4>Guest: Dr. Pontus Leander</h4>
+    <p className="guest-credentials">
+       Associate Professor of Psychology at Wayne State University<br />
+       The director of the Center for Peace and Conflict Studies at Wayne State University
+    </p>
+    <p className="guest-bio">
+      Dr. Pontus Leander teaches and conducts research on the motivations that drive human thinking and behavior, 
+      including why people are drawn to aggression, violence, and war. 
+      Such motives are often subtle and not entirely conscious.
+    </p>
+  </div>
+
+  {/* Audio Player for M4A file */}
+  <div className="audio-player-wrapper">
+    <audio controls className="audio-player">
+      <source src="/podcast-2.m4a" type="audio/mp4" />
+      Your browser does not support the audio element.
+    </audio>
+  </div>
+
+  {/* Download Button */}
+  <div className="episode-actions">
+    <a 
+      href="/podcast-2.m4a" 
+      download="AAP-Podcast-Episode-2-[Topic].m4a"
+      className="download-btn"
+    >
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+        <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+        <polyline points="7 10 12 15 17 10"></polyline>
+        <line x1="12" y1="15" x2="12" y2="3"></line>
+      </svg>
+      Download Episode
+    </a>
+  </div>
+</div>
 
             {/* Coming Soon Message */}
             <div className="coming-soon-box">
