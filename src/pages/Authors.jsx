@@ -18,7 +18,7 @@ function Authors() {
             <div className="cta-icon">📬</div>
             <h2>Ready to Submit?</h2>
             <p>Share your interdisciplinary research with our community</p>
-            <a href="https://forms.gle/GdZUwzAEus6yNR9x8" target="_blank" rel="noopener noreferrer" className="cta-button">
+            <a href="https://docs.google.com/forms/u/3/d/1jx-5D-VZ575I4-dD7ho8Pz6SNNsJJyIJ1iEzlgEGaws/edit?usp=forms_home&ouid=109912994738131654892&ths=true" target="_blank" rel="noopener noreferrer" className="cta-button">
               Submit Your Manuscript
               <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                 <line x1="5" y1="12" x2="19" y2="12"></line>
